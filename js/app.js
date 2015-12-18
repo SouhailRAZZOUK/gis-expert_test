@@ -1,32 +1,8 @@
-// 
-// (function () {
-  // "use strict";
+(function () {
+  "use strict";
 
   var app = WinJS.Application;
-  //var activation = Windows.ApplicationModel.Activation;
   WinJS.strictProcessing();
-
-    app.onactivated = function (args) {
-        //if (args.detail.kind === activation.ActivationKind.launch) {
-            //if (args.detail.previousExecutionState !== activation.ApplicationExecutionState.terminated) {
-            //    // TODO: This application has been newly launched. Initialize
-            //    // your application here.
-            //} else {
-            //    // TODO: This application has been reactivated from suspension.
-            //    // Restore application state here.
-            //}
-            //args.setPromise(WinJS.UI.processAll());
-        //}
-    };
-
-  app.oncheckpoint = function (args) {
-      // TODO: This application is about to be suspended. Save any state
-      // that needs to persist across suspensions here. You might use the
-      // WinJS.Application.sessionState object, which is automatically
-      // saved and restored across suspension. If you need to complete an
-      // asynchronous operation before your application is suspended, call
-      // args.setPromise().
-  };
 
   app.start();
 
@@ -47,7 +23,8 @@
 
   function drawMarker(position) {
 
-    L.marker([position.lat, position.lng], {icon: pinIcon}).addTo(map);
+    var pin = L.marker([position.lat, position.lng], {icon: pinIcon}).addTo(map);
+    pin.bindPopup("<b>You look like to be here</b>").openPopup();
     
   }
   
@@ -92,7 +69,7 @@
       );
     }
     else {
-      alert("Geolocation is not supported by your browser, please consedire upgrading your browser, or enable Geolocation if disabled");
+      alert("Geolocation is not supported on your browser, please consedire upgrading.");
     }
     
   }
@@ -101,10 +78,10 @@
           iconUrl: 'images/mappin.png',
           iconSize:     [65, 105], // size of the icon
           iconAnchor:   [32, 105], // point of the icon which will correspond to marker's location
-          popupAnchor:  [-3, -76] // point from which the popup should open relative to the iconAnchor
+          popupAnchor:  [-3, -70] // point from which the popup should open relative to the iconAnchor
       }),
       
-      map = L.map('map').setView([29.726, -7.031], 5);
+      map = L.map('map').setView([0, 0], 1); // setting the map LatLng on Morocco was not convincing enough :)
       
   
   WinJS.UI.processAll().done(function () {
@@ -121,4 +98,4 @@
     
   });
   
-// })();
+})();

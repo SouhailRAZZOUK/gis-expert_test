@@ -92,4 +92,4 @@ OSM is just awesome work at its best, their documentation has to get  some make-
 
 Technologies I choosed to work with was for performancce reasons and ergonomy. 
 
-I was thinking of using SASS but the project did not needed that much of over-flow. 
+I was thinking of using SASS and CoffeeScript/TypeScript but the project did not needed that much of over-flow. 
