@@ -84,11 +84,11 @@ index.html
 
 This was one of my favorite tests, I've ever gone through :)
 
-By far, the requested frameworks, witch I knew nothing about before today, are well documented, and easy to use.
+By far, the requested frameworks, which I knew nothing about before today, are well documented, and easy to use.
 
 LeafletJS is a beautifull piece of software, a lightweight and easy to use framework, I might consedire using it in some of my future projects.
 
-OSM is just awesome work at its best, their documentation has to get  some make-up, but it's enough to start with, I doubt why their last update to the API was back in 2012 ??
+OSM is just awesome work at its best, their documentation has to get some make-up, but it's enough to start with, I'm wondering why their last update to the API was back in 2012 ??
 
 Technologies I choosed to work with was for performancce reasons and ergonomy. 
 
