@@ -32,7 +32,7 @@ Workflow and Development tools:
 - [NPM](https://www.npmjs.com/) Node Package Manager.
 - [Grunt](http://www.gruntjs.com): Task manager.
 - [Bower](http://www.bower.io): Package manager.
-- HTTP-SERVER (Node Package): []() 'Mini' Local HTML Server (This was **ONLY** for performance reason, the solution is working on IIS and/or Apache), it's not included in the project build tools.
+- HTTP-SERVER (Node Package): ['Mini' Local HTML Server](https://www.npmjs.com/package/http-server) (This was **ONLY** for performance reason, the solution is working on IIS and/or Apache), it's not included in the project build tools.
 
 ### Execution:
 
