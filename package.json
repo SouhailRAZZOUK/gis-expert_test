@@ -1,0 +1,12 @@
+{
+  "name": "jade-template",
+  "version": "0.0.1",
+  "devDependencies": {
+    "grunt": "latest",
+    "grunt-contrib-watch": "latest",
+    "grunt-contrib-jade": "latest",
+    "grunt-init": "latest",
+    "grunt-new": "latest",
+    "grunt-contrib-clean": "latest"
+  }
+}

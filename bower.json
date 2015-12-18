@@ -1,0 +1,6 @@
+{
+  "name": "Bootstrap template with Pjax and Cycle2",
+  "dependencies": {
+    "winjs": "~3.0.1"
+  }
+}
