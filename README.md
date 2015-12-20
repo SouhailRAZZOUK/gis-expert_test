@@ -43,13 +43,13 @@ Duration:
 - Research: 2 hours.
 - Development: 3 hours (Continous).
 
-Changes and corrections my occure if needed, I will keep the doc updates about this.
+Changes and corrections may occure if needed, I will keep the doc updated about this.
 
 ## How To Use:
 
 **Note**: *Pre-Builded code is ignored from the repository*
 
-In your Commande line run the following commands, and please respact the order. 
+In your Commande line run the following commands, and please respect the order. 
 
 1- Clone this repository:
 
@@ -69,7 +69,7 @@ In your Commande line run the following commands, and please respact the order.
 
 You can run ```grunt``` if you want Grunt to keep watching the chages you're making on the project.
 
-Only the following files and folders (and their subfolders and files) have to be kept:
+Only the following files and folders (and their subfolders and files) have to be kept, and served with index file:
 
 ```
 index.html

@@ -14,17 +14,17 @@
   
   function getUserCoordinations(position) {
   
-    var usrPosition = {};  
-    usrPosition.lat = position.coords.latitude 
-    usrPosition.lng = position.coords.longitude;
-    return usrPosition;
+    var userPosition = {};  
+    userPosition.lat = position.coords.latitude 
+    userPosition.lng = position.coords.longitude;
+    return userPosition;
   
   }
 
   function drawMarker(position) {
 
     var pin = L.marker([position.lat, position.lng], {icon: pinIcon}).addTo(map);
-    pin.bindPopup("<b>You look like to be here</b>").openPopup();
+    pin.bindPopup("<p> You seem to be connected from here</p>").openPopup();
     
   }
   
