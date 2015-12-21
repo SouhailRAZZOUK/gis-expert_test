@@ -78,7 +78,7 @@
           iconUrl: 'images/mappin.png',
           iconSize:     [65, 105], // size of the icon
           iconAnchor:   [32, 105], // point of the icon which will correspond to marker's location
-          popupAnchor:  [-3, -70] // point from which the popup should open relative to the iconAnchor
+          popupAnchor:  [-1, -73] // point from which the popup should open relative to the iconAnchor
       }),
       
       map = L.map('map').setView([0, 0], 1); // setting the map LatLng on Morocco was not convincing enough :)
