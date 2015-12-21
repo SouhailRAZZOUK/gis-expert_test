@@ -23,21 +23,21 @@
 
   function drawMarker(position) {
 
-    var pin = L.marker([position.lat, position.lng], {icon: pinIcon}).addTo(map);
+    var pin = L.marker(new L.LatLng(position.lat, position.lng), {icon: pinIcon}).addTo(map);
     pin.bindPopup("<p> You seem to be connected from here</p>").openPopup();
     
   }
   
   function focusOnUserLocation(position) {
     
-    map.panTo(new L.LatLng(position.lat, position.lng), {
-      animate: true,
-      duration: .5
-    });
-    
-    map.zoomIn(8, {
-      animate: true
-    });
+    map
+      .setZoom(10, {
+        animate: true
+      })
+      .panTo(new L.LatLng(position.lat, position.lng), {
+        animate: true,
+        duration: 0.5
+      });
     
   }
 
