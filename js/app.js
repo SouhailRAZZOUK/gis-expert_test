@@ -81,7 +81,7 @@
           popupAnchor:  [1, -73] // point from which the popup should open relative to the iconAnchor
       }),
       
-      map = L.map('map').setView([0, 0], 1); // setting the map LatLng on Morocco was not convincing enough :)
+      map = L.map('map').setView([0, 0], 2); // setting the map LatLng on Morocco was not convincing enough :)
       
   
   WinJS.UI.processAll().done(function () {
