@@ -29,6 +29,7 @@ Frameworks:
 
 Workflow and Development tools:
 
+- [Visual Studio Code](https://code.visualstudio.com/): My new found favorite editor (of course SublimeText is better)
 - [NPM](https://www.npmjs.com/) Node Package Manager.
 - [Grunt](http://www.gruntjs.com): Task manager.
 - [Bower](http://www.bower.io): Package manager.
